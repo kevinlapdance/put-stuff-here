@@ -1,0 +1,72 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  font-size: 25px;
+  background-color: #e2e2e2;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+header {
+  width: 100%;
+  overflow: hidden;
+  height: 77px;
+  background-color: #fff;
+  padding:0px;
+  margin: 0px;
+  margin-top: 40px;
+  border: 1px rgb(165, 165, 165) solid;
+  align-items: center;
+}
+
+nav{
+  display:inline-block;
+  margin-top: 24px;
+  margin-left: 80px;
+}
+
+.nike-logo img {
+  width: 70px;
+  height: 30px;
+  float: left;
+  margin-top: 25px;
+  margin-left: 20px;
+}
+
+ul {
+  display:inline;
+}
+
+
+li{
+  display: inline;
+  float: center;
+  padding: 5px 12px;
+
+}
+
+li a{
+font-size: 14px;
+text-decoration: none;
+color: #000;
+text-transform: uppercase;
+font-family: 'Helvetica';
+letter-spacing: .03em;
+font-weight: 600;
+font-stretch: extra-condensed;
+}
+
+header form {
+  display:inline;
+  padding: 0 10px 0 0;
+  margin-right: 20px; 
+  margin-top: 22px;
+  float: right;
+}
+
+header input {
+  width: 200px;
+  height: 32px;
+}
